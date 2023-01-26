@@ -45,8 +45,12 @@ c. Internet Stability
 
 # Screenshots 
 
-![image](https://user-images.githubusercontent.com/64231526/214856755-d74530a1-6fff-46f8-93ce-d513043641aa.png)
+![image](https://user-images.githubusercontent.com/64231526/214858808-ed51e076-bff9-4788-81f9-03de35d0b7dd.png)
 (Feature 7)
+You can find it in the devTools console.
+How to open it? - Click on the "service worker" option as shown in below image:
+  ![image](https://user-images.githubusercontent.com/64231526/214859069-4d66cea0-06e9-46f1-ae41-027f00ce1ea3.png)
+
 
 # Note
 Please change the location of the cloned folder if your browser gets stuck due to the extension.
