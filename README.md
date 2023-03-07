@@ -7,23 +7,19 @@ extension should have basic features such as preventing browser navigation, keep
 the browser window in full mode while the user is taking the test, and disabling the user
 from manually closing the browser.
 
-### Added Basic Features
+### Features
 
 - [x] Extension should work only in selected URLs(test page) during a certain time/trigger.
 - [x] The browser should open in full screen mode.
 - [x] Pop up should be shown when someone switches between 2 tabs or Application.
 - [x] More than one tab can’t be opened.
-- [ ] Users should not be able to close the tab by the normal close button [shortcut keys should not work too]. (User should only be able to close tab by clicking on
-“End Test” Button)
+- [x] If the number of opened tabs are more than one, test must not start.
 - [x] Should do requirement check initially when extension is activated:
 a. Audio
 b. Camera
 c. Internet Stability
 - [x] Capture the user related information in local storage.(e.g. IP, requirements check)
 
-### Extra Feature
-
-- [x] If the number of opened tabs are more than one, test must not start.
 
 # Steps to install the extension
 
@@ -33,7 +29,7 @@ c. Internet Stability
 4. Click on the "Load Unpacked" button and select the cloned folder
 5. Enable the extension called "Test Extenion" and Reload the extension once (optional: Pin the extension on the top bar)
 
-# How to use and Working of the extension (w.r.t basic added features mentioned above)
+# How to use and Working of the extension (w.r.t features mentioned above)
 
 1. The extension only triggers when we visit the home page of elitmus (https://www.elitmus.com/); (Feature 1)
 2. After opening the testpage (elitmus home page), give permissions for audio and video capture and also it detects the internet stability in background. (Feature 6)
